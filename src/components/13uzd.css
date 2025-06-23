@@ -1,0 +1,9 @@
+.projektai{
+    background-color: rgb(190, 128, 248);
+    width: 50%;
+}
+
+.projektu-list>div{
+    border: solid 2px white;
+    border-radius: 50%;
+}

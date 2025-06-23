@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.paslauga{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+  background-color: aqua;
+  border:solid 2px blue;
+}
+
+table{
+  border: 1px solid black;
+  border-radius: 10px;
 }
